@@ -1,5 +1,5 @@
 # Cacophony
-_An Acoustic Controller_  
+_An Acoustic Hill-Climber_  
 **by Make Magic Happen**  
 
 ## Links to Resources
