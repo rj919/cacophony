@@ -1,0 +1,28 @@
+# IDE and VCS Files
+.idea
+.gitignore
+.git
+.hgignore
+server/.tmp/
+server/.editorconfig
+
+# Notes & Configs
+/cred/
+/notes/
+/*.sh
+
+# Local Node_Modules dependencies
+# Throws all kind of exception based upon local permissions
+# https://github.com/docker/docker/pull/6644
+server/node_modules/
+
+# App content files
+server/api/
+server/assets/
+server/tasks/
+server/views/
+server/config/
+
+
+
+
