@@ -11,9 +11,6 @@
   },
   "main": "server.js",
   "dependencies": {
-    "express",
-    "body-parser",
-    "cookie-parser",
-    "multer"
+    "express": "latest"
   }
 }
