@@ -5,8 +5,12 @@ var app = express();
 app.use(express.static('static'))
 
 // define routes
-app.get("*", function(req, res) {
+app.get("/", function(req, res) {
   res.sendFile(__dirname + '/templates/wrapper.html')
+});
+
+app.get("/audio-input", function(req, res) {
+  res.sendFile(__dirname + '/templates/audio-input.html')
 });
 
 app.listen(8080);
