@@ -35,6 +35,7 @@ nbproject
 .node_history
 __pycache__
 *.so
+node_modules
 
 ############## backup sync files ###############
 desktop.ini
