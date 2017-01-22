@@ -388,7 +388,7 @@ function updateContext(context_kwargs) {
 // declare input schema
     input_schema = {
         'schema': {
-            'element_selector': 'meta[name=lab-context]',
+            'element_selector': 'meta[name=vtp-context]',
             'context_array': [ 'strings' ],
             'context_map': {},
             'array_upsert': true,
